@@ -1,0 +1,319 @@
+{
+  "loss": 0.3803330032257692,
+  "pixel_accuracy": 0.8579301119223003,
+  "dice": 0.8884306839394372,
+  "iou": 0.7992580139653944,
+  "precision": 0.8588110666932501,
+  "recall": 0.9201663908447631,
+  "samples": 26,
+  "mean_image_dice": 0.8897491679290325,
+  "per_source": {
+    "HEK293": {
+      "loss": 0.37811820952263125,
+      "pixel_accuracy": 0.8608114571155276,
+      "dice": 0.8835497486655237,
+      "iou": 0.7913919564346283,
+      "precision": 0.7945130290365193,
+      "recall": 0.9950607522260517,
+      "samples": 12
+    },
+    "MDCK": {
+      "loss": 0.3822313978284588,
+      "pixel_accuracy": 0.8554603874709624,
+      "dice": 0.8921615201900237,
+      "iou": 0.8053173241852487,
+      "precision": 0.91485651393624,
+      "recall": 0.8705652665917786,
+      "samples": 14
+    }
+  },
+  "per_image": [
+    {
+      "image": "HEK293/images/Yaniv__dic_L10_Sum055.tif",
+      "source": "HEK293",
+      "loss": 0.4130558902214635,
+      "pixel_accuracy": 0.8395419279413328,
+      "dice": 0.8357896454209267,
+      "iou": 0.7179026042274904,
+      "precision": 0.7179026042274904,
+      "recall": 1.0,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L12_Sum030.tif",
+      "source": "HEK293",
+      "loss": 0.4898273096237645,
+      "pixel_accuracy": 0.8083218195344882,
+      "dice": 0.7998723888256998,
+      "iou": 0.6664894477705092,
+      "precision": 0.6664894477705092,
+      "recall": 1.0,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L15_Sum030.tif",
+      "source": "HEK293",
+      "loss": 0.14376801539334016,
+      "pixel_accuracy": 0.9515822616643639,
+      "dice": 0.9468107618998971,
+      "iou": 0.8989939582063079,
+      "precision": 0.899954221981772,
+      "recall": 0.9988145091760069,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L18_Sum030.tif",
+      "source": "HEK293",
+      "loss": 0.18057694355553858,
+      "pixel_accuracy": 0.9386159528111383,
+      "dice": 0.9463428229678963,
+      "iou": 0.8981505973636644,
+      "precision": 0.8993995982606009,
+      "recall": 0.9984562039771127,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L1_Sum001.tif",
+      "source": "HEK293",
+      "loss": 0.30613651573626316,
+      "pixel_accuracy": 0.8861927409926666,
+      "dice": 0.9062207504310463,
+      "iou": 0.8285225293752627,
+      "precision": 0.8287547804497126,
+      "recall": 0.9996618725017812,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L21_Sum001.tif",
+      "source": "HEK293",
+      "loss": 0.1758166813979634,
+      "pixel_accuracy": 0.9437838771389095,
+      "dice": 0.9562669560499186,
+      "iou": 0.9161987939280516,
+      "precision": 0.919613572663844,
+      "recall": 0.9959634449575354,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L23_Sum001.tif",
+      "source": "HEK293",
+      "loss": 0.09395061358722367,
+      "pixel_accuracy": 0.9703475395897545,
+      "dice": 0.977624060150376,
+      "iou": 0.9562275695711008,
+      "precision": 0.965085208716822,
+      "recall": 0.9904930221220062,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L25_Sum055.tif",
+      "source": "HEK293",
+      "loss": 0.12606340899504465,
+      "pixel_accuracy": 0.9540134445743437,
+      "dice": 0.9613117026092107,
+      "iou": 0.9255054716839013,
+      "precision": 0.9387483355525965,
+      "recall": 0.9849864293812485,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L29_Sum020.tif",
+      "source": "HEK293",
+      "loss": 0.16360281296498033,
+      "pixel_accuracy": 0.9404028058242109,
+      "dice": 0.9392963464140731,
+      "iou": 0.8855407853443217,
+      "precision": 0.9073251071839381,
+      "recall": 0.9736030071813285,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L5_Sum010.tif",
+      "source": "HEK293",
+      "loss": 0.7243644300005314,
+      "pixel_accuracy": 0.7305837496014455,
+      "dice": 0.8062039209315438,
+      "iou": 0.6753280020492624,
+      "precision": 0.6753280020492624,
+      "recall": 1.0,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L7_Sum020.tif",
+      "source": "HEK293",
+      "loss": 0.77103890722978,
+      "pixel_accuracy": 0.7180093527473695,
+      "dice": 0.8096613072446354,
+      "iou": 0.6801940591970952,
+      "precision": 0.6801940591970952,
+      "recall": 1.0,
+      "samples": 1
+    },
+    {
+      "image": "HEK293/images/Yaniv__dic_L8_Sum055.tif",
+      "source": "HEK293",
+      "loss": 0.9492169855656818,
+      "pixel_accuracy": 0.6483420129663089,
+      "dice": 0.7636037258982076,
+      "iou": 0.617604357027802,
+      "precision": 0.617604357027802,
+      "recall": 1.0,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L16_007.tif",
+      "source": "MDCK",
+      "loss": 0.636599079837124,
+      "pixel_accuracy": 0.6859589223084281,
+      "dice": 0.7383341543195869,
+      "iou": 0.5852057871324916,
+      "precision": 0.9366925064599483,
+      "recall": 0.6093049173738684,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L18_011.tif",
+      "source": "MDCK",
+      "loss": 0.12785794248691412,
+      "pixel_accuracy": 0.9636850356042087,
+      "dice": 0.9684132679296737,
+      "iou": 0.9387608795492478,
+      "precision": 0.9388765656158276,
+      "recall": 0.9998687617070523,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L18_015.tif",
+      "source": "MDCK",
+      "loss": 0.1427061113569787,
+      "pixel_accuracy": 0.9590219470719524,
+      "dice": 0.9666271754007282,
+      "iou": 0.9354099047220187,
+      "precision": 0.9355764296859456,
+      "recall": 0.9998097540231429,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L18_028.tif",
+      "source": "MDCK",
+      "loss": 0.12923590082052422,
+      "pixel_accuracy": 0.9606161653735785,
+      "dice": 0.9751140622966921,
+      "iou": 0.9514366686324618,
+      "precision": 0.9516549238079633,
+      "recall": 0.9997590091834715,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L1_000.tif",
+      "source": "MDCK",
+      "loss": 0.1418755947181555,
+      "pixel_accuracy": 0.9501740354979276,
+      "dice": 0.9652710579803414,
+      "iou": 0.9328733533791523,
+      "precision": 0.9332408236347359,
+      "recall": 0.9995780873934431,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L1_016.tif",
+      "source": "MDCK",
+      "loss": 0.1476909237291091,
+      "pixel_accuracy": 0.9533757572536933,
+      "dice": 0.9708567751043202,
+      "iou": 0.9433641028951361,
+      "precision": 0.9610920211104352,
+      "recall": 0.9808219867616339,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L2_001.tif",
+      "source": "MDCK",
+      "loss": 1.1877443222579445,
+      "pixel_accuracy": 0.5682259007333404,
+      "dice": 0.7246735313676738,
+      "iou": 0.5682259007333404,
+      "precision": 1.0,
+      "recall": 0.5682259007333404,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L2_003.tif",
+      "source": "MDCK",
+      "loss": 1.269642824523063,
+      "pixel_accuracy": 0.48992985439472847,
+      "dice": 0.6576549264378065,
+      "iou": 0.48992985439472847,
+      "precision": 1.0,
+      "recall": 0.48992985439472847,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L3_001.tif",
+      "source": "MDCK",
+      "loss": 0.1483660793314579,
+      "pixel_accuracy": 0.9551161122329684,
+      "dice": 0.9679597517200829,
+      "iou": 0.9379089171506285,
+      "precision": 0.9396704106057816,
+      "recall": 0.9980052996450607,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L4_000.tif",
+      "source": "MDCK",
+      "loss": 0.4688322018811776,
+      "pixel_accuracy": 0.8228690615368265,
+      "dice": 0.847138942710065,
+      "iou": 0.7348144317594176,
+      "precision": 0.7350410345685153,
+      "recall": 0.9995806333788775,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L4_003.tif",
+      "source": "MDCK",
+      "loss": 0.39847294437174513,
+      "pixel_accuracy": 0.8505752471038368,
+      "dice": 0.8775362437189349,
+      "iou": 0.7817947250487434,
+      "precision": 0.7828654686741137,
+      "recall": 0.9982535888130597,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L5_000.tif",
+      "source": "MDCK",
+      "loss": 0.2639460888511,
+      "pixel_accuracy": 0.9067714422361569,
+      "dice": 0.8898775196353051,
+      "iou": 0.8016030081139917,
+      "precision": 0.8018637141362293,
+      "recall": 0.999594570773841,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L5_011.tif",
+      "source": "MDCK",
+      "loss": 0.13776709643443114,
+      "pixel_accuracy": 0.959652991816346,
+      "dice": 0.9623051335517824,
+      "iou": 0.9273488427725615,
+      "precision": 0.9274930615369892,
+      "recall": 0.9998323532446095,
+      "samples": 1
+    },
+    {
+      "image": "MDCK/images/DKWH7_L6_032.tif",
+      "source": "MDCK",
+      "loss": 0.15050245899869805,
+      "pixel_accuracy": 0.9504729514294824,
+      "dice": 0.9727114351384192,
+      "iou": 0.9468726396944607,
+      "precision": 0.9468726396944607,
+      "recall": 1.0,
+      "samples": 1
+    }
+  ],
+  "checkpoint_epoch": 8
+}

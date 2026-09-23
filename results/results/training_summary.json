@@ -1,0 +1,17 @@
+{
+  "image_size": 572,
+  "output_height": 388,
+  "output_width": 388,
+  "base_channels": 64,
+  "epochs": 15,
+  "batch_size": 3,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "train_samples": 30,
+  "val_samples": 4,
+  "test_samples": 4,
+  "device": "cuda",
+  "training_seconds": 98.93411296499994,
+  "best_epoch": 15,
+  "best_validation_dice": 0.7526330665900571
+}

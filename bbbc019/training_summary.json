@@ -1,0 +1,51 @@
+{
+  "dataset": "BBBC019v2",
+  "split_strategy": "source_disjoint",
+  "train_sources": [
+    "Init",
+    "Melanoma",
+    "SN15",
+    "TScratch"
+  ],
+  "val_sources": [
+    "Microfluidics",
+    "Scatter"
+  ],
+  "test_sources": [
+    "HEK293",
+    "MDCK"
+  ],
+  "image_size": 572,
+  "output_height": 388,
+  "output_width": 388,
+  "base_channels": 64,
+  "epochs": 16,
+  "epochs_requested": 40,
+  "early_stopping_patience": 8,
+  "batch_size": 3,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "train_samples": 120,
+  "val_samples": 19,
+  "test_samples": 26,
+  "device": "cuda",
+  "training_seconds": 453.56307048199994,
+  "best_epoch": 8,
+  "best_validation_dice": 0.7150375504898407,
+  "source_counts": {
+    "train": {
+      "Init": 22,
+      "Melanoma": 20,
+      "SN15": 54,
+      "TScratch": 24
+    },
+    "val": {
+      "Microfluidics": 13,
+      "Scatter": 6
+    },
+    "test": {
+      "HEK293": 12,
+      "MDCK": 14
+    }
+  }
+}

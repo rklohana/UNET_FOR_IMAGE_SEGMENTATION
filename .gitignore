@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+split.json
+splits/
+runs/
+*.pt
+.pdf_deps/
+portfolio_results.zip
+bbbc019_portfolio_results.zip
+tmp_*.zip
+/image.png
+/accuracy.png
+/loss.png
